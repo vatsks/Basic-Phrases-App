@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/button0"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="7dp"
+
+            android:tag="namaste"
+            android:text="namaste"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button1"
+
+            android:layout_marginRight="5dp"
+
+            app:layout_gravity="fill"
+            android:text="please"
+            android:tag="please"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button2"
+
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="7dp"
+            android:text="thank you"
+            android:tag="thank you"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button3"
+
+            android:layout_marginRight="5dp"
+            app:layout_gravity="fill"
+            android:text="very good"
+            android:tag="very good"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button4"
+
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="7dp"
+            app:layout_gravity="fill"
+            android:text="welcome"
+            android:tag="welcome"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button5"
+
+            android:layout_marginRight="5dp"
+
+            app:layout_gravity="fill"
+            android:text="what is ur name"
+            android:tag="what is ur name"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button6"
+
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="7dp"
+            app:layout_gravity="fill"
+            android:text="excuse me!"
+            android:tag="nexcuse me"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button7"
+
+            android:layout_marginRight="5dp"
+            android:tag="im fine"
+            android:text="i'm fine"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
