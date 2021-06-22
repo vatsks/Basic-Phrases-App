@@ -28,6 +28,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="7dp"
 
+            android:onClick="click"
             android:tag="namaste"
             android:text="namaste"
             app:layout_columnWeight="1"
@@ -38,7 +39,7 @@
             android:id="@+id/button1"
 
             android:layout_marginRight="5dp"
-
+            android:onClick="click"
             app:layout_gravity="fill"
             android:text="please"
             android:tag="please"
@@ -49,27 +50,27 @@
             android:id="@+id/button2"
 
             android:layout_marginLeft="5dp"
-
+            android:onClick="click"
             android:layout_marginRight="7dp"
             android:text="thank you"
-            android:tag="thank you"
+            android:tag="thankyou"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button3"
-
+            android:onClick="click"
             android:layout_marginRight="5dp"
             app:layout_gravity="fill"
             android:text="very good"
-            android:tag="very good"
+            android:tag="verygood"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button4"
-
+            android:onClick="click"
             android:layout_marginLeft="5dp"
 
             android:layout_marginRight="7dp"
@@ -81,32 +82,32 @@
 
         <Button
             android:id="@+id/button5"
-
+            android:onClick="click"
             android:layout_marginRight="5dp"
 
             app:layout_gravity="fill"
             android:text="what is ur name"
-            android:tag="what is ur name"
+            android:tag="whatisurname"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button6"
-
+            android:onClick="click"
             android:layout_marginLeft="5dp"
 
             android:layout_marginRight="7dp"
             app:layout_gravity="fill"
             android:text="excuse me!"
-            android:tag="nexcuse me"
+            android:tag="excuseme"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button7"
-
+            android:onClick="click"
             android:layout_marginRight="5dp"
-            android:tag="im fine"
+            android:tag="imfine"
             android:text="i'm fine"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
